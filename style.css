@@ -138,50 +138,67 @@
 
 #background {
   position: fixed;
-  top: -80px;
-  left: -5px;
-  min-height: 100%;
+  top: -1%;
+  min-height: 101%;
   min-width: 100%;
   overflow: hidden;
   /*--filter: blur(2px);--*/
+  z-index: -10;
 }
 
 #looking {
   position: fixed;
-  right: 284px;
-  top: 50%;
-  transform: translateY(-50%);
+  left: 1156px;
+  top: 473px;
   width: 208px;
 }
 
 #looking-rever {
   position: fixed;
-  left: 284px;
-  top: 50%;
-  transform: translateY(-50%);
+  left: 85px;
+  top: 473px;
   width: 208px;
 }
 
 #twinkle {
   position: fixed;
-  left: 350px;
+  left: 62px;
   top: 546px;
   width: 422px;
 }
 
 #about {
   position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 641px;
   top: 13px;
   width: 159px;
 }
 
+#text {
+  transition:visibility 3s, opacity 3s;;
+  visibility:hidden;
+  opacity: 0;
+  position: fixed;
+  z-index: 99999;
+  left: -10px;
+  top: -20px;
+  width: 1450px;
+}
+
+#about:hover{
+  cursor: pointer;
+}
+
+#about:hover +#text{
+  visibility:visible;
+  opacity: 1;
+}
+
+
 #logo {
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 284px;
+  top: 72px;
   width: 872px;
 }
 
