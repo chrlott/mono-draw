@@ -1,0 +1,426 @@
+/*@keyframes glow {
+	0%   {text-shadow: 0px 0px 5px #1cff9f;}
+  100%  {text-shadow: 0px 0px 30px #1cff9f;}
+}*/
+
+@keyframes times-animation {
+  0% {
+    font-family: "Times Heart";
+    color: #ff00f6;
+
+  }
+
+  20% {
+    font-family: "Times Bloom";
+    color: #00fcff;
+  }
+
+  40% {
+    font-family: "Times Smile";
+    color: #fff600;
+
+  }
+
+  60% {
+    font-family: "Times Star";
+    color: #50ff00;
+  }            
+
+  80% {
+    font-family: "Times Sun";
+    color: #ff0000;
+  } 
+
+  100% {
+    font-family: "Times Heart";
+    color: #ff00f6;
+  }       
+}
+
+@keyframes color-animation {
+  0% {
+  }
+
+  20% {
+    color: cyan;
+  }
+
+  40% {
+      color: yellow;
+  }
+
+  60% {
+    color: green;
+  }            
+
+  80% {
+    color: red;
+  } 
+
+  100% {
+    color: magenta;
+  }       
+}
+
+
+@keyframes decay {
+  0% {
+    font-variation-settings: "DCAY" 0;
+  }
+  50% {
+    font-variation-settings: "DCAY" 200;
+  }
+  100% {
+    font-variation-settings: "DCAY" 0;
+  }  
+}
+
+@font-face {
+  font-family: "UnifrakturMaguntia";
+  src:
+    url("assets/UnifrakturMaguntia.ttf");
+}
+
+@font-face {
+  font-family: "UnifrakturMaguntia21";
+  src:
+    url("assets/UnifrakturMaguntia21.ttf");
+}
+
+@font-face {
+  font-family: "AUTHENTIC SANS Condensed";
+  src:
+    url("assets/AUTHENTICSans-Condensed-90.otf");
+}
+
+
+@font-face {
+  font-family: "Times Dot";
+  src:
+    url("assets/Times-Dot.otf");
+}
+
+@font-face {
+  font-family: "Times Heart";
+  src:
+    url("assets/Times-Heart-Roman.otf");
+}
+
+@font-face {
+  font-family: "Times Bloom";
+  src:
+    url("assets/Times-Bloom-Roman.otf");
+}
+
+@font-face {
+  font-family: "Times Smile";
+  src:
+    url("assets/Times-Smile-Roman.otf");
+}
+
+@font-face {
+  font-family: "Times Star";
+  src:
+    url("assets/Times-Star-Roman.otf");
+}
+
+@font-face {
+  font-family: "Times Sun";
+  src:
+    url("assets/Times-Sun-Roman.otf");
+}
+
+@font-face {
+    font-family: "New Horizons";
+    src: url("assets/NewHorizonsVF.woff2") format("woff2-variations");
+}
+
+
+.video-page {
+  background-color: #000;
+}
+
+.image-bg {
+  position: fixed;
+  left: -100%;
+  bottom: 0;
+  z-index: -100;
+}
+
+body {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #86ca92;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #86ca92;
+}
+
+.link {
+    text-decoration: none;
+    color: #86ca92;
+}
+
+#CC {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.CC_icons {
+  padding-right: .1em;
+}
+
+#Virtual {
+  font-family: UnifrakturMaguntia21;
+  text-align: center;
+  font-size: 6em;
+  line-height:1em;
+  color: #1cff9f;
+/*  text-shadow: 0px 0px 5px #1cff9f;*/
+  margin: 0;
+  padding: 0;
+  animation-name: glow;
+/*  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;*/
+}
+
+#Fantasy {
+  font-family: UnifrakturMaguntia;
+  text-align: center;
+  font-size: 6em;
+  line-height:1em;
+  color: #1cff9f;
+/*  text-shadow: 0px 0px 5px #1cff9f;*/
+  margin: 0;
+  padding: 0;
+/*  animation-name: glow;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;*/
+}
+#Joey {
+  text-align: center;
+  margin: auto;
+  font-size: 1em;
+  font-family: Times Dot, Times;
+  margin: 0;
+  padding-top: .5em;
+  letter-spacing: .3em;
+}
+
+.introduction {
+	font-family: UnifrakturMaguntia21;
+	text-align: center;
+	font-size: 5em;
+	line-height:1em;
+	color: #86ca92;
+/*	text-shadow: 0px 0px 5px #86ca92;*/
+	margin: 0;
+  padding: .5em;
+}
+
+.head {
+  color:white;
+  font-family: AUTHENTIC SANS Condensed;
+  font-size: 1.2em;
+  margin: 0;
+  padding: .2em;
+}
+
+.caption {
+  color:white;
+  font-family: AUTHENTIC SANS Condensed;
+  font-weight: normal;
+  font-size: .8em;
+  margin: 0;
+  padding: .5em 1em 1em 1em;
+}
+
+.caption-sm {
+  color:white;
+  font-family: AUTHENTIC SANS Condensed;
+  font-size: .6em;
+  margin: 0;
+  padding: 0 .2em 0 0;
+}
+
+.manifesto {
+  font-family: AUTHENTIC Sans Condensed;
+  font-weight: normal;
+  font-size: 3.8em;
+  text-align: center;
+  line-height: 3em;
+  color: yellow;
+  -webkit-text-stroke: .02em black;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  bottom: 0;
+}
+
+
+
+#m-caption {
+  padding: .5em;
+  color: yellow;
+  font-weight: normal;
+}
+
+.times-container {
+  padding: .5em 6em 3em .5em;
+  margin: 0;
+}
+
+.h-times, .h2-times, .h2-times_bloom, .h2-times_heart {
+  font-size: 6em;
+  margin: 0;
+  padding: 0;
+  line-height: .95em;
+  font-weight: normal;
+}
+
+.h-times, .h2-times {
+}
+
+.h2-times_bloom, .p-times_bloom {
+  font-family: "Times Bloom";
+  color: black;
+}
+
+.h2-times_heart, .p-times_heart {
+  font-family: "Times Heart";
+  color: black;
+}
+
+.p-times, .h-times {
+  animation: times-animation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.p-times, .p-times_bloom, .p-times_heart {
+  font-size: 1em;
+  line-height: 1em;
+  margin: 0;
+  padding: .5em 0 1em 0;
+}
+
+
+
+.new-horizons {
+    font-family:"New Horizons", Times;
+    font-weight: normal;
+    font-variation-settings: "DCAY" 100;
+    animation: decay 10s infinite ease-in-out;
+    color: white;
+    text-align: left;
+    font-size: 2em;
+    line-height: 1em;
+    text-rendering: geometricPrecision;
+}
+
+.new-horizons-sm {
+    font-family:"New Horizons", Times;
+    font-weight: normal;
+    font-variation-settings: "DCAY" 100;
+    animation: decay 10s infinite ease-in-out;
+    color: white;
+    text-align: left;
+    font-size: .8em;
+    line-height: 1em;
+    text-rendering: geometricPrecision;
+}
+
+.nh-caption {
+    font-family:"New Horizons", Times;
+    font-weight: normal;
+    font-variation-settings: "DCAY" 0;
+    color: white;
+    text-align: left;
+    font-size: .5em;
+    line-height: 1.2em;
+    text-rendering: geometricPrecision;
+    padding: .2em 1.2em 2em 1.2em;
+    margin: 0;
+}
+
+#nh-container {
+  margin: 0;
+  padding-left: 1em;
+}
+
+.Video {
+  position: fixed;
+  left: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
+}
+
+.rose-img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#Cherry {
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
+}
+
+.Video-center {
+  position: absolute;
+  left: -50%;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
+}
+
+.sims-head {
+  color:white;
+  font-family: AUTHENTIC SANS Condensed;
+  font-weight: normal;
+  font-size: 1.5em;
+  margin: 0;
+  padding-bottom: 1em ;
+}
+
+.sims-body {
+  color:white;
+  font-family: AUTHENTIC SANS Condensed;
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 0;
+  padding-bottom: 1em ;
+}
+
+.sims-container {
+  padding: 1em 20em 1em 20em;
+}
+
