@@ -24,42 +24,41 @@
   60% {
     font-family: "Times Star";
     color: #50ff00;
-  }            
+  }
 
   80% {
     font-family: "Times Sun";
     color: #ff0000;
-  } 
+  }
 
   100% {
     font-family: "Times Heart";
     color: #ff00f6;
-  }       
+  }
 }
 
 @keyframes color-animation {
-  0% {
-  }
+  0% {}
 
   20% {
     color: cyan;
   }
 
   40% {
-      color: yellow;
+    color: yellow;
   }
 
   60% {
     color: green;
-  }            
+  }
 
   80% {
     color: red;
-  } 
+  }
 
   100% {
     color: magenta;
-  }       
+  }
 }
 
 
@@ -67,12 +66,14 @@
   0% {
     font-variation-settings: "DCAY" 0;
   }
+
   50% {
     font-variation-settings: "DCAY" 200;
   }
+
   100% {
     font-variation-settings: "DCAY" 0;
-  }  
+  }
 }
 
 @font-face {
@@ -131,10 +132,58 @@
 }
 
 @font-face {
-    font-family: "New Horizons";
-    src: url("assets/NewHorizonsVF.woff2") format("woff2-variations");
+  font-family: "New Horizons";
+  src: url("assets/NewHorizonsVF.woff2") format("woff2-variations");
 }
 
+#background {
+  position: fixed;
+  top: -80px;
+  left: -5px;
+  min-height: 100%;
+  min-width: 100%;
+  overflow: hidden;
+  /*--filter: blur(2px);--*/
+}
+
+#looking {
+  position: fixed;
+  right: 284px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 208px;
+}
+
+#looking-rever {
+  position: fixed;
+  left: 284px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 208px;
+}
+
+#twinkle {
+  position: fixed;
+  left: 350px;
+  top: 546px;
+  width: 422px;
+}
+
+#about {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 13px;
+  width: 159px;
+}
+
+#logo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 872px;
+}
 
 .video-page {
   background-color: #000;
@@ -152,27 +201,28 @@ body {
   margin-right: 0;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: normal;
 }
 
 a {
-    text-decoration: none;
-    color: #86ca92;
+  text-decoration: none;
+  color: #86ca92;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 a:visited {
-    text-decoration: none;
-    color: #86ca92;
+  text-decoration: none;
+  color: #86ca92;
 }
 
 .link {
-    text-decoration: none;
-    color: #86ca92;
+  text-decoration: none;
+  color: #86ca92;
 }
 
 #CC {
@@ -189,13 +239,13 @@ a:visited {
   font-family: UnifrakturMaguntia21;
   text-align: center;
   font-size: 6em;
-  line-height:1em;
+  line-height: 1em;
   color: #1cff9f;
-/*  text-shadow: 0px 0px 5px #1cff9f;*/
+  /*  text-shadow: 0px 0px 5px #1cff9f;*/
   margin: 0;
   padding: 0;
   animation-name: glow;
-/*  animation-duration: 2s;
+  /*  animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: ease-in-out;*/
@@ -205,17 +255,18 @@ a:visited {
   font-family: UnifrakturMaguntia;
   text-align: center;
   font-size: 6em;
-  line-height:1em;
+  line-height: 1em;
   color: #1cff9f;
-/*  text-shadow: 0px 0px 5px #1cff9f;*/
+  /*  text-shadow: 0px 0px 5px #1cff9f;*/
   margin: 0;
   padding: 0;
-/*  animation-name: glow;
+  /*  animation-name: glow;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: ease-in-out;*/
 }
+
 #Joey {
   text-align: center;
   margin: auto;
@@ -227,18 +278,18 @@ a:visited {
 }
 
 .introduction {
-	font-family: UnifrakturMaguntia21;
-	text-align: center;
-	font-size: 5em;
-	line-height:1em;
-	color: #86ca92;
-/*	text-shadow: 0px 0px 5px #86ca92;*/
-	margin: 0;
+  font-family: UnifrakturMaguntia21;
+  text-align: center;
+  font-size: 5em;
+  line-height: 1em;
+  color: #86ca92;
+  /*	text-shadow: 0px 0px 5px #86ca92;*/
+  margin: 0;
   padding: .5em;
 }
 
 .head {
-  color:white;
+  color: white;
   font-family: AUTHENTIC SANS Condensed;
   font-size: 1.2em;
   margin: 0;
@@ -246,7 +297,7 @@ a:visited {
 }
 
 .caption {
-  color:white;
+  color: white;
   font-family: AUTHENTIC SANS Condensed;
   font-weight: normal;
   font-size: .8em;
@@ -255,7 +306,7 @@ a:visited {
 }
 
 .caption-sm {
-  color:white;
+  color: white;
   font-family: AUTHENTIC SANS Condensed;
   font-size: .6em;
   margin: 0;
@@ -289,7 +340,10 @@ a:visited {
   margin: 0;
 }
 
-.h-times, .h2-times, .h2-times_bloom, .h2-times_heart {
+.h-times,
+.h2-times,
+.h2-times_bloom,
+.h2-times_heart {
   font-size: 6em;
   margin: 0;
   padding: 0;
@@ -297,27 +351,32 @@ a:visited {
   font-weight: normal;
 }
 
-.h-times, .h2-times {
-}
+.h-times,
+.h2-times {}
 
-.h2-times_bloom, .p-times_bloom {
+.h2-times_bloom,
+.p-times_bloom {
   font-family: "Times Bloom";
   color: black;
 }
 
-.h2-times_heart, .p-times_heart {
+.h2-times_heart,
+.p-times_heart {
   font-family: "Times Heart";
   color: black;
 }
 
-.p-times, .h-times {
+.p-times,
+.h-times {
   animation: times-animation;
   animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 
-.p-times, .p-times_bloom, .p-times_heart {
+.p-times,
+.p-times_bloom,
+.p-times_heart {
   font-size: 1em;
   line-height: 1em;
   margin: 0;
@@ -327,40 +386,40 @@ a:visited {
 
 
 .new-horizons {
-    font-family:"New Horizons", Times;
-    font-weight: normal;
-    font-variation-settings: "DCAY" 100;
-    animation: decay 10s infinite ease-in-out;
-    color: white;
-    text-align: left;
-    font-size: 2em;
-    line-height: 1em;
-    text-rendering: geometricPrecision;
+  font-family: "New Horizons", Times;
+  font-weight: normal;
+  font-variation-settings: "DCAY" 100;
+  animation: decay 10s infinite ease-in-out;
+  color: white;
+  text-align: left;
+  font-size: 2em;
+  line-height: 1em;
+  text-rendering: geometricPrecision;
 }
 
 .new-horizons-sm {
-    font-family:"New Horizons", Times;
-    font-weight: normal;
-    font-variation-settings: "DCAY" 100;
-    animation: decay 10s infinite ease-in-out;
-    color: white;
-    text-align: left;
-    font-size: .8em;
-    line-height: 1em;
-    text-rendering: geometricPrecision;
+  font-family: "New Horizons", Times;
+  font-weight: normal;
+  font-variation-settings: "DCAY" 100;
+  animation: decay 10s infinite ease-in-out;
+  color: white;
+  text-align: left;
+  font-size: .8em;
+  line-height: 1em;
+  text-rendering: geometricPrecision;
 }
 
 .nh-caption {
-    font-family:"New Horizons", Times;
-    font-weight: normal;
-    font-variation-settings: "DCAY" 0;
-    color: white;
-    text-align: left;
-    font-size: .5em;
-    line-height: 1.2em;
-    text-rendering: geometricPrecision;
-    padding: .2em 1.2em 2em 1.2em;
-    margin: 0;
+  font-family: "New Horizons", Times;
+  font-weight: normal;
+  font-variation-settings: "DCAY" 0;
+  color: white;
+  text-align: left;
+  font-size: .5em;
+  line-height: 1.2em;
+  text-rendering: geometricPrecision;
+  padding: .2em 1.2em 2em 1.2em;
+  margin: 0;
 }
 
 #nh-container {
@@ -384,7 +443,7 @@ a:visited {
 }
 
 #Cherry {
-    position: fixed;
+  position: fixed;
   left: 0;
   bottom: 0;
   min-width: 100%;
@@ -402,25 +461,24 @@ a:visited {
 }
 
 .sims-head {
-  color:white;
+  color: white;
   font-family: AUTHENTIC SANS Condensed;
   font-weight: normal;
   font-size: 1.5em;
   margin: 0;
-  padding-bottom: 1em ;
+  padding-bottom: 1em;
 }
 
 .sims-body {
-  color:white;
+  color: white;
   font-family: AUTHENTIC SANS Condensed;
   font-weight: normal;
   font-size: 1em;
   line-height: 1.5em;
   margin: 0;
-  padding-bottom: 1em ;
+  padding-bottom: 1em;
 }
 
 .sims-container {
   padding: 1em 20em 1em 20em;
 }
-
