@@ -32,9 +32,9 @@ setInterval(() => {
     // 设置图片的位置
     img1.style.left = x1 + 'px'
     img1.style.top = y1 + 'px'
-    console.log(x1, y1);
+    // console.log(x1, y1);
 
     img2.style.left = x2 + 'px'
     img2.style.top = y2 + 'px'
-    console.log(x2, y2);
+    // console.log(x2, y2);
 }, 10)

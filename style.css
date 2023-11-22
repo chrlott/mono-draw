@@ -76,65 +76,6 @@
   }
 }
 
-@font-face {
-  font-family: "UnifrakturMaguntia";
-  src:
-    url("assets/UnifrakturMaguntia.ttf");
-}
-
-@font-face {
-  font-family: "UnifrakturMaguntia21";
-  src:
-    url("assets/UnifrakturMaguntia21.ttf");
-}
-
-@font-face {
-  font-family: "AUTHENTIC SANS Condensed";
-  src:
-    url("assets/AUTHENTICSans-Condensed-90.otf");
-}
-
-
-@font-face {
-  font-family: "Times Dot";
-  src:
-    url("assets/Times-Dot.otf");
-}
-
-@font-face {
-  font-family: "Times Heart";
-  src:
-    url("assets/Times-Heart-Roman.otf");
-}
-
-@font-face {
-  font-family: "Times Bloom";
-  src:
-    url("assets/Times-Bloom-Roman.otf");
-}
-
-@font-face {
-  font-family: "Times Smile";
-  src:
-    url("assets/Times-Smile-Roman.otf");
-}
-
-@font-face {
-  font-family: "Times Star";
-  src:
-    url("assets/Times-Star-Roman.otf");
-}
-
-@font-face {
-  font-family: "Times Sun";
-  src:
-    url("assets/Times-Sun-Roman.otf");
-}
-
-@font-face {
-  font-family: "New Horizons";
-  src: url("assets/NewHorizonsVF.woff2") format("woff2-variations");
-}
 
 .floating{
   position: relative;
@@ -261,58 +202,7 @@ a:visited {
   padding-right: .1em;
 }
 
-#Virtual {
-  font-family: UnifrakturMaguntia21;
-  text-align: center;
-  font-size: 6em;
-  line-height: 1em;
-  color: #1cff9f;
-  /*  text-shadow: 0px 0px 5px #1cff9f;*/
-  margin: 0;
-  padding: 0;
-  animation-name: glow;
-  /*  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: ease-in-out;*/
-}
 
-#Fantasy {
-  font-family: UnifrakturMaguntia;
-  text-align: center;
-  font-size: 6em;
-  line-height: 1em;
-  color: #1cff9f;
-  /*  text-shadow: 0px 0px 5px #1cff9f;*/
-  margin: 0;
-  padding: 0;
-  /*  animation-name: glow;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: ease-in-out;*/
-}
-
-#Joey {
-  text-align: center;
-  margin: auto;
-  font-size: 1em;
-  font-family: Times Dot, Times;
-  margin: 0;
-  padding-top: .5em;
-  letter-spacing: .3em;
-}
-
-.introduction {
-  font-family: UnifrakturMaguntia21;
-  text-align: center;
-  font-size: 5em;
-  line-height: 1em;
-  color: #86ca92;
-  /*	text-shadow: 0px 0px 5px #86ca92;*/
-  margin: 0;
-  padding: .5em;
-}
 
 .head {
   color: white;
@@ -322,136 +212,6 @@ a:visited {
   padding: .2em;
 }
 
-.caption {
-  color: white;
-  font-family: AUTHENTIC SANS Condensed;
-  font-weight: normal;
-  font-size: .8em;
-  margin: 0;
-  padding: .5em 1em 1em 1em;
-}
-
-.caption-sm {
-  color: white;
-  font-family: AUTHENTIC SANS Condensed;
-  font-size: .6em;
-  margin: 0;
-  padding: 0 .2em 0 0;
-}
-
-.manifesto {
-  font-family: AUTHENTIC Sans Condensed;
-  font-weight: normal;
-  font-size: 3.8em;
-  text-align: center;
-  line-height: 3em;
-  color: yellow;
-  -webkit-text-stroke: .02em black;
-  margin: 0;
-  padding: 0;
-  position: fixed;
-  bottom: 0;
-}
-
-
-
-#m-caption {
-  padding: .5em;
-  color: yellow;
-  font-weight: normal;
-}
-
-.times-container {
-  padding: .5em 6em 3em .5em;
-  margin: 0;
-}
-
-.h-times,
-.h2-times,
-.h2-times_bloom,
-.h2-times_heart {
-  font-size: 6em;
-  margin: 0;
-  padding: 0;
-  line-height: .95em;
-  font-weight: normal;
-}
-
-.h-times,
-.h2-times {}
-
-.h2-times_bloom,
-.p-times_bloom {
-  font-family: "Times Bloom";
-  color: black;
-}
-
-.h2-times_heart,
-.p-times_heart {
-  font-family: "Times Heart";
-  color: black;
-}
-
-.p-times,
-.h-times {
-  animation: times-animation;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-
-.p-times,
-.p-times_bloom,
-.p-times_heart {
-  font-size: 1em;
-  line-height: 1em;
-  margin: 0;
-  padding: .5em 0 1em 0;
-}
-
-
-
-.new-horizons {
-  font-family: "New Horizons", Times;
-  font-weight: normal;
-  font-variation-settings: "DCAY" 100;
-  animation: decay 10s infinite ease-in-out;
-  color: white;
-  text-align: left;
-  font-size: 2em;
-  line-height: 1em;
-  text-rendering: geometricPrecision;
-}
-
-.new-horizons-sm {
-  font-family: "New Horizons", Times;
-  font-weight: normal;
-  font-variation-settings: "DCAY" 100;
-  animation: decay 10s infinite ease-in-out;
-  color: white;
-  text-align: left;
-  font-size: .8em;
-  line-height: 1em;
-  text-rendering: geometricPrecision;
-}
-
-.nh-caption {
-  font-family: "New Horizons", Times;
-  font-weight: normal;
-  font-variation-settings: "DCAY" 0;
-  color: white;
-  text-align: left;
-  font-size: .5em;
-  line-height: 1.2em;
-  text-rendering: geometricPrecision;
-  padding: .2em 1.2em 2em 1.2em;
-  margin: 0;
-}
-
-#nh-container {
-  margin: 0;
-  padding-left: 1em;
-}
 
 .Video {
   position: fixed;
@@ -462,49 +222,47 @@ a:visited {
   z-index: -100;
 }
 
-.rose-img {
-  width: 100%;
-  margin: 0;
-  padding: 0;
+
+
+
+@keyframes move-clouds-back {
+  from {background-position:0 0;}
+  to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+  from {background-position:0 0;}
+  to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+  from {background-position:0 0;}
+  to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+  from {background-position: 0;}
+  to {background-position:10000px 0;}
 }
 
-#Cherry {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -100;
+.clouds {
+position:absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+width:100%;
+height:100%;
+display:block;
 }
 
-.Video-center {
-  position: absolute;
-  left: -50%;
-  top: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -100;
-}
 
-.sims-head {
-  color: white;
-  font-family: AUTHENTIC SANS Condensed;
-  font-weight: normal;
-  font-size: 1.5em;
-  margin: 0;
-  padding-bottom: 1em;
-}
 
-.sims-body {
-  color: white;
-  font-family: AUTHENTIC SANS Condensed;
-  font-weight: normal;
-  font-size: 1em;
-  line-height: 1.5em;
-  margin: 0;
-  padding-bottom: 1em;
-}
+.clouds{
+  background:transparent url('./assets/cloud4.png') repeat top center;
+  z-index:-1;
 
-.sims-container {
-  padding: 1em 20em 1em 20em;
+-moz-animation:move-clouds-back 200s linear infinite;
+-ms-animation:move-clouds-back 200s linear infinite;
+-o-animation:move-clouds-back 200s linear infinite;
+-webkit-animation:move-clouds-back 200s linear infinite;
+animation:move-clouds-back 200s linear infinite;
+
 }
