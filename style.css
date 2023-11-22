@@ -136,6 +136,12 @@
   src: url("assets/NewHorizonsVF.woff2") format("woff2-variations");
 }
 
+.floating{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
 #background {
   position: fixed;
   top: -1%;
@@ -149,22 +155,22 @@
 #looking {
   position: fixed;
   left: 1156px;
-  top: 473px;
+  top: 390px;
   width: 208px;
 }
 
 #looking-rever {
   position: fixed;
-  left: 85px;
-  top: 473px;
+  left: 110px;
+  top: 390px;
   width: 208px;
 }
 
 #twinkle {
   position: fixed;
-  left: 62px;
-  top: 546px;
-  width: 422px;
+  left: 192px;
+  top: 606px;
+  width: 283px;
 }
 
 #about {
@@ -175,15 +181,15 @@
 }
 
 #text {
-  transition:visibility 3s, opacity 3s;;
+  transition:visibility 1s, opacity 1s;;
   visibility:hidden;
   opacity: 0;
   position: fixed;
   z-index: 99999;
-  left: -10px;
-  top: -20px;
-  width: 1450px;
-}
+  left: 70px;
+  top: 80px;
+  width: 1335px;
+} 
 
 #about:hover{
   cursor: pointer;
@@ -197,9 +203,9 @@
 
 #logo {
   position: fixed;
-  left: 284px;
-  top: 72px;
-  width: 872px;
+  left: 349px;
+  top: 240px;
+  width: 772px;
 }
 
 .video-page {
@@ -214,8 +220,11 @@
 }
 
 body {
-  margin-left: 0;
-  margin-right: 0;
+  /* margin-left: 0;
+  margin-right: 0; */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 h1,
