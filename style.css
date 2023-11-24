@@ -76,6 +76,23 @@
   }
 }
 
+.video-bg {
+	height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.Video {
+  position: fixed;
+  left: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -5;
+  mix-blend-mode: screen;
+}
 
 .floating{
   position: relative;
@@ -97,14 +114,14 @@
   position: fixed;
   left: 1156px;
   top: 390px;
-  width: 208px;
+  width: 350px;
 }
 
 #looking-rever {
   position: fixed;
   left: 110px;
   top: 390px;
-  width: 208px;
+  width: 350px;
 }
 
 #twinkle {
@@ -149,9 +166,6 @@
   width: 772px;
 }
 
-.video-page {
-  background-color: #000;
-}
 
 .image-bg {
   position: fixed;
@@ -213,18 +227,6 @@ a:visited {
 }
 
 
-.Video {
-  position: fixed;
-  left: 0;
-  top: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -100;
-}
-
-
-
-
 @keyframes move-clouds-back {
   from {background-position:0 0;}
   to {background-position:10000px 0;}
@@ -252,7 +254,6 @@ width:100%;
 height:100%;
 display:block;
 }
-
 
 
 .clouds{
