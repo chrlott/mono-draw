@@ -39,7 +39,8 @@
 #text1 {
   position: absolute;
   font-family: 'Consolas', 'Monaco', 'Lucida Console', monospace;
-  right: 887px;
+  /* right: 887px; */
+  left: 600px;
   top: 479px;
   opacity: 1;
   /** 文本1 */
